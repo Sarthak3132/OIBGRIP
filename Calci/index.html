@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1 class="title">Calculator</h1>
+    <div class="calculator">
+      <input type="text" id="display" disabled />
+      <br />
+      <input type="button" value="1" onclick="addInput('1')"/>
+      <input type="button" value="2" onclick="addInput('2')"/>
+      <input type="button" value="3" onclick="addInput('3')"/>
+      <input type="button" value="+" onclick="addInput('+')"/>
+      <br />
+      <input type="button" value="4" onclick="addInput('4')"/>
+      <input type="button" value="5" onclick="addInput('5')"/>
+      <input type="button" value="6" onclick="addInput('6')"/>
+      <input type="button" value="-" onclick="addInput('-')"/>
+      <br />
+      <input type="button" value="7" onclick="addInput('7')"/>
+      <input type="button" value="8" onclick="addInput('8')"/>
+      <input type="button" value="9" onclick="addInput('9')"/>
+      <input type="button" value="*" onclick="addInput('*')"/>
+      <br />
+      <input type="button" value="C" onclick="clearInput()"/>
+      <input type="button" value="0" onclick="addInput('0')"/>
+      <input type="button" value="=" onclick="calculate()"/>
+      <input type="button" value="/" onclick="addInput('/')"/>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

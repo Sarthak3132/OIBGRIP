@@ -1,0 +1,106 @@
+body{
+  text-align: center;
+  background-color:white ;
+}
+.cont{
+  margin: 30px;
+}
+
+h2{
+  color:rgb(51, 129, 135); 
+}
+input{
+  
+  width: 40%;
+  margin-bottom: 40px;
+  height: 32px;
+  border: 2px solid rgba(136, 0, 255, 0.71);
+  border-radius: 5px;
+}
+
+h1{
+  font-size:50px;
+  text-decoration:underline;
+  color:cadetblue;
+}
+
+li {
+  width: 97%;
+  border-radius: 5px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.188);
+  text-decoration: dotted;
+  text-align: left;
+  background-color: #a8bfc26e;
+  margin: 10px 0;
+  padding: 10px;
+  color: black;
+  
+}
+
+.todosec{
+  background-color: rgb(232, 222, 232);
+  border-radius: 5px;
+  border: 1px solid rgb(232, 222, 232);
+  height: 500px;
+  contain: content;
+  overflow: auto;
+  
+}
+.mar{
+  background-color: rgb(255, 255, 255);
+  height: 150px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-top: 5px;
+  overflow: auto;
+
+}
+.edt{
+  background-color: #a881af;
+}
+
+.dlt{
+  background-color: #ffbd03;
+}
+
+.mrk{
+  background-color: #5dbea3;
+  color: black;
+}
+.read {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+#categorizedTodoList{
+  width: 95%;
+  margin-left: 40px;
+}
+li button{
+  float: right;
+  margin: 3px;
+  border-radius: 5px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.341);
+
+}
+button {
+  background-color:skyblue;
+  border: 1px solid blue;
+  border-radius: 5px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.475);
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.marked-todo {
+        
+      
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-color: lightgray;
+        margin: 10px;
+        text-align: center;
+        padding-top: 40px;
+      }
